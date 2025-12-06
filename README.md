@@ -1,105 +1,109 @@
-# AI OSINT Security Analyzer
+# AI OSINT Security Analyzer 🛡️
 
-An intelligent cybersecurity platform that uses AI agents to conduct autonomous OSINT investigations across multiple intelligence sources. Powered by Cohere's Command A model, it automatically selects tools, correlates findings, and provides comprehensive security assessments.
+![GitHub release](https://img.shields.io/github/release/Armaan29-09-2005/AI-OSINT-Security-Analyzer.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-1.0%2B-orange.svg)
 
-## Features
+Welcome to the **AI OSINT Security Analyzer**! This project leverages cutting-edge AI technology to enhance cybersecurity intelligence. Our Streamlit web app utilizes Cohere's Command A model, combined with powerful data sources like Shodan, VirusTotal, AbuseIPDB, and CVE databases. Together, these tools provide a comprehensive threat assessment for websites, CVEs, IP addresses, and software.
 
-* **AI-Powered Analysis:** Autonomous tool selection and multi-step reasoning for comprehensive investigations.
-* **Complexity-Based Reports:** Choose from Quick Scan, Standard Analysis, Comprehensive Investigation, or Expert Deep Dive.
-* **Multi-Source Intelligence:** Integrates Shodan, VirusTotal, AbuseIPDB, CVE databases, CISA KEV, and NVD.
-* **Version-Aware Vulnerability Assessment:** Accurate analysis for specific software versions with intelligent filtering.
-* **Infrastructure Mapping:** Complete domain-to-IP analysis with hosting and service discovery.
-* **Real-Time Threat Intelligence:** Identifies actively exploited vulnerabilities and threat indicators.
-* **Secure & Private:** No data collection, session-only API key storage, advanced input sanitization.
+## Table of Contents
 
-## Target Types (With Examples)
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-* **IP Addresses:** `8.8.8.8` - Network services, reputation, hosting analysis
-* **Domain Names:** `example.com` - DNS infrastructure, subdomain mapping
-* **CVE IDs:** `CVE-2021-44228` - Vulnerability details and exploitation status
-* **Software + Version:** `apache httpd 2.4.62` - Version-specific vulnerability assessment
+## Features 🌟
 
-## Requirements
+- **Comprehensive Threat Assessment**: Analyze websites, IP addresses, and software vulnerabilities.
+- **AI-Driven Insights**: Utilize Cohere's Command A model for enhanced analysis.
+- **Multi-Source Data Gathering**: Integrate information from Shodan, VirusTotal, AbuseIPDB, and CVE databases.
+- **User-Friendly Interface**: Built with Streamlit for a seamless user experience.
+- **Open Source**: Contribute to the project and improve its capabilities.
 
-* Python 3.8+
-* Internet connection for OSINT API access
-* API keys (see Setup for free tier options)
+## Technologies Used ⚙️
 
-## Setup and Installation
+- **Python**: The primary programming language for development.
+- **Streamlit**: Framework for building the web app.
+- **Cohere's Command A**: AI model for natural language processing and analysis.
+- **Shodan**: Search engine for Internet-connected devices.
+- **VirusTotal**: Service that analyzes files and URLs for viruses and other malware.
+- **AbuseIPDB**: Database for reporting and checking IP addresses involved in abusive behavior.
+- **CVE Databases**: Sources for information on known vulnerabilities.
 
-### Option 1: Streamlit Website
+## Installation 🛠️
 
-**[Streamlit Link](https://osint-ai.streamlit.app)**
+To get started with the **AI OSINT Security Analyzer**, follow these steps:
 
-## Running the Application
-
-### Option 2: Local Installation
-
-1. **Clone Repository:**
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/MRFrazer25/AI-OSINT-Security-Analyzer.git
+   git clone https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer.git
    cd AI-OSINT-Security-Analyzer
    ```
 
-2. **Install Dependencies:**
+2. **Install Required Packages**:
+   Ensure you have Python 3.8 or higher installed. Use pip to install the necessary libraries:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Setup Configuration:**
+3. **Run the Application**:
+   Launch the Streamlit app with the following command:
    ```bash
-   python setup.py
-   ```
-   This creates a `.env.example` template. Copy it to `.env` and add your API keys:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your API keys
+   streamlit run app.py
    ```
 
-4. **Get API Keys (Free Tiers Available):**
-   * **[Cohere API](https://dashboard.cohere.ai/api-keys)** - Required for AI agent (1,000 calls/month free)
-   * **[Shodan](https://account.shodan.io/)** - Network reconnaissance (100 queries/month free)
-   * **[VirusTotal](https://www.virustotal.com/gui/join-us)** - Threat intelligence (500 queries/day free)
-   * **[AbuseIPDB](https://www.abuseipdb.com/api)** - IP reputation (1,000 queries/day free)
-   
-   *CVE-Search, CISA KEV, and NVD require no API keys*
+## Usage 🚀
 
-```bash
-python -m streamlit run app.py
-```
+Once the application is running, you can access it via your web browser at `http://localhost:8501`. The interface is designed to be intuitive. Here’s how to use it:
 
-Open your browser to `http://localhost:8501`, configure your API keys in the web interface, and start analyzing targets.
+1. **Input Section**: Enter the website URL, IP address, or CVE ID you want to analyze.
+2. **Select Data Sources**: Choose which data sources you want to query for your analysis.
+3. **Run Analysis**: Click the "Analyze" button to begin the assessment.
+4. **View Results**: Review the comprehensive threat assessment provided by the app.
 
-## How It Works
+For downloadable releases, please visit [Releases](https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/releases) to get the latest version of the application.
 
-The AI agent automatically:
-1. **Analyzes** your target type (IP, domain, CVE, software)
-2. **Selects** optimal OSINT tools for investigation
-3. **Executes** tools in intelligent sequence based on discoveries
-4. **Correlates** findings across all intelligence sources
-5. **Synthesizes** comprehensive security assessment with risk prioritization
+## Contributing 🤝
 
-Choose your complexity level for report detail - all levels use the same comprehensive tool suite.
+We welcome contributions from the community! To contribute to the **AI OSINT Security Analyzer**, please follow these steps:
 
-## Security
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the page.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add Your Feature Description"
+   ```
+5. **Push to Your Fork**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit your pull request.
 
-* **No Persistent Storage:** All analysis data processed in-memory only
-* **Session-Only API Keys:** Never permanently stored or committed to files
-* **Input Sanitization:** Advanced protection against injection attacks
-* **Zero Telemetry:** No user tracking, analytics, or data collection
-* **Local Processing:** Analysis runs entirely on your chosen environment
+## License 📄
 
-## Troubleshooting
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-* **Import Errors:** Ensure all dependencies installed: `pip install -r requirements.txt`
-* **API Key Issues:** Verify keys are correctly added in web interface or `.env` file
-* **Streamlit Not Found:** Install streamlit: `pip install streamlit`
-* **Tool Failures:** Check internet connectivity and API key validity
+## Contact 📫
 
-## License
+For any inquiries or suggestions, please reach out to the project maintainer:
 
-MIT License - see the [LICENSE](LICENSE) file for details.
+- **Armaan**: [GitHub Profile](https://github.com/Armaan29-09-2005)
 
-## Disclaimer
+## Acknowledgments 🙏
 
-This tool is designed for legitimate security research, defensive cybersecurity, and educational purposes only. Users are responsible for ensuring compliance with applicable laws and regulations. Unauthorized use against systems you do not own or have explicit permission to test is prohibited.
+We acknowledge the developers of the libraries and tools that made this project possible:
+
+- **Cohere** for their AI models.
+- **Shodan**, **VirusTotal**, **AbuseIPDB**, and **CVE** for their valuable data sources.
+
+For downloadable releases, please visit [Releases](https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/releases) to get the latest version of the application.
+
+---
+
+This README provides a comprehensive overview of the **AI OSINT Security Analyzer** project. It outlines the features, technologies, installation steps, usage instructions, contribution guidelines, and contact information. With this information, users and contributors can easily understand and engage with the project.
